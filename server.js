@@ -22,7 +22,7 @@ const port="8080";
 
 app.use(express.json());
 app.use(cors({
-   origin: ['http://localhost:3000', 'https://pet-app-hazel.vercel.app'], // 허용하는 출처 목록
+   origin: ['http://localhost:3000', 'https://pet-app-mocha.vercel.app'], // 허용하는 출처 목록
    credentials: true, // 인증 정보 전송 허용
   })); // 브라우저의 cors 이슈를 막기 위해 사용하는 코드.
 app.use('/uploads', express.static('uploads'));
